@@ -4,4 +4,7 @@ resource "aws_instance" "patef" {
     availability_zone = var.zone
     vpc_security_group_ids = ["sg-0a6cb0dc9cc8e2b3f"]
 
+tag {
+    name = patef
+}
 }
