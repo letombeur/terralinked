@@ -1,9 +1,9 @@
 variable "ami_type" {
-  ami_type = ami-09301a37d119fe4c5
+  default = "ami-09301a37d119fe4c5"
 }
 
 variable "instance_type" {
-  default = t2.micro
+  default = "t2.micro"
 }
 
 variable "region" {
