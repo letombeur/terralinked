@@ -3,13 +3,13 @@ variable "ami_type" {
 }
 
 variable "instance_type" {
-  instance_type = t2.micro
+  default = t2.micro
 }
 
 variable "region" {
-    region = "ca-central-1"
+    default = "ca-central-1"
 }
 
 variable "zone" {
-    zone = "ca-central-1a"
+    default = "ca-central-1a"
 }
