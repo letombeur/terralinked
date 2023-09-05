@@ -1,5 +1,5 @@
 resource "aws_instance" "patef" {
-    ami = "var.ami_type"
-    instance_type = "var.instance_type"
+    ami = var.ami_type
+    instance_type = var.instance_type
 
 }

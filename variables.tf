@@ -6,3 +6,6 @@ variable "instance_type" {
   instance_type = "t2.micro"
 }
 
+variable "region" {
+    region = "ca-central-1"
+}
