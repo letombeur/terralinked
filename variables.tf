@@ -9,3 +9,7 @@ variable "instance_type" {
 variable "region" {
     region = "ca-central-1"
 }
+
+variable "zone" {
+    zone = "ca-central-1a"
+}
